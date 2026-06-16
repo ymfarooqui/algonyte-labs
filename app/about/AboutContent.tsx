@@ -22,10 +22,12 @@ const values = [
 ];
 
 const offerings = [
+  "Websites built to convert and rank",
   "Custom AI chat and voice assistants",
+  "Local SEO and Google Business Profile",
   "CRM and pipeline setup",
   "Paid ads on Google and Meta",
-  "Landing pages built to convert",
+  "Review generation and reputation",
   "Marketing automation and email",
   "Integrations with the tools you already use",
 ];
@@ -50,9 +52,10 @@ export default function AboutContent() {
               <span className="text-brand-deep">so you don&rsquo;t have to.</span>
             </motion.h1>
             <motion.p className="lede mt-6 max-w-2xl" variants={reveal.fadeUp}>
-              Algonyte Labs is a small team that handles AI, marketing, and
-              the systems behind them for businesses that don&rsquo;t have time
-              to figure it out themselves.
+              Algonyte Labs is a small team that runs the digital side of
+              your business — website, SEO, ads, reviews, and an AI
+              receptionist — for owners who don&rsquo;t have time to figure
+              it out themselves.
             </motion.p>
           </div>
         </motion.div>
@@ -82,10 +85,10 @@ export default function AboutContent() {
               the same approach to small businesses.
             </motion.p>
             <motion.p variants={reveal.fadeUp}>
-              That means everything that touches a customer. The chatbot that
-              answers their first question. The ad that brought them in. The
-              follow-up text the next morning. The CRM keeping track of all
-              of it.
+              That means everything that touches a customer. The website they
+              found you on. The ad that brought them there. The AI that
+              answered their first question. The follow-up text the next
+              morning. The review they leave once the job&rsquo;s done.
             </motion.p>
             <motion.p
               className="text-brand-ink font-medium"
@@ -138,7 +141,7 @@ export default function AboutContent() {
             <motion.div className="relative" variants={reveal.fadeUpLg}>
               <Image
                 src="/yf-headshot.jpg"
-                alt="Yaseen Farooqui, founder of Algonyte Labs, AI receptionist for service businesses"
+                alt="Yaseen Farooqui, founder of Algonyte Labs, digital operator for service businesses"
                 width={480}
                 height={480}
                 className="w-full max-w-sm mx-auto h-auto rounded-2xl shadow-md ring-1 ring-slate-200 object-cover object-top aspect-square"

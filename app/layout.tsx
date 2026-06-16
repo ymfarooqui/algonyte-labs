@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: `AI Receptionist for Service Businesses | ${siteConfig.name}`,
   description:
-    "AI receptionist for service businesses in Chicago, Detroit, and across the Midwest. Answer, qualify, and book every lead 24/7. Plans from $549/mo.",
+    "Algonyte Labs runs the digital side of service businesses in Chicago, Detroit, and across the Midwest — website, SEO, ads, reviews, and an AI receptionist that books every lead 24/7. Plans from $549/mo.",
   keywords: [
     "AI lead automation",
     "missed call text back",
@@ -105,6 +105,10 @@ const localBusinessJsonLd = {
     { "@type": "Country", name: "United States" },
   ],
   serviceType: [
+    "Web Design and Hosting",
+    "Local SEO",
+    "Paid Advertising",
+    "Reputation Management",
     "AI Lead Automation",
     "Missed Call Text Back",
     "AI Receptionist",

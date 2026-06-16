@@ -57,8 +57,9 @@ export default function Hero() {
             className="lede"
             variants={reveal.fadeUp}
           >
-            AI bots that answer your leads, follow up, and book them on your
-            calendar — without you ever lifting a finger.
+            We run the digital side of your business — site, SEO, ads,
+            reviews, and an AI receptionist that answers every lead 24/7 — so
+            you stay on the work that pays you.
           </motion.p>
         </div>
 

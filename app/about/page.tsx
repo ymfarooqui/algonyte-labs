@@ -7,7 +7,7 @@ const breadcrumb = breadcrumbJsonLd([{ name: "About", path: "/about" }]);
 
 const title = "About Algonyte Labs | AI Automation Studio";
 const description =
-  "We build AI receptionists for service businesses across the Midwest. Based in the Chicago and Detroit metros. Real workflows, real numbers, no fluff.";
+  "Algonyte Labs runs the digital stack for service businesses across the Chicago and Detroit metros — websites, SEO, ads, reviews, and an AI receptionist. Real workflows, real numbers, no fluff.";
 
 export const metadata: Metadata = {
   title,
@@ -26,7 +26,7 @@ const personJsonLd = {
   url: `${siteConfig.url}/about`,
   image: `${siteConfig.url}/yf-headshot.jpg`,
   description:
-    "Founder of Algonyte Labs. Builds AI receptionists for service businesses across the Midwest and US.",
+    "Founder of Algonyte Labs. Runs websites, SEO, ads, reviews, and AI receptionists for service businesses across the Midwest and US.",
 };
 
 export default function AboutPage() {
